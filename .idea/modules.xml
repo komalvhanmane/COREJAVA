@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Array1D/Array1D.iml" filepath="$PROJECT_DIR$/Array1D/Array1D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array2D/Array2D.iml" filepath="$PROJECT_DIR$/Array2D/Array2D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array1D/ArrayAssignment/ArrayAssignment.iml" filepath="$PROJECT_DIR$/Array1D/ArrayAssignment/ArrayAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Banking Application/Banking Application.iml" filepath="$PROJECT_DIR$/Banking Application/Banking Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection/Collection.iml" filepath="$PROJECT_DIR$/Collection/Collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection/Collection/Collection1.iml" filepath="$PROJECT_DIR$/Collection/Collection/Collection1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array1D/Declaration Part/Declaration Part.iml" filepath="$PROJECT_DIR$/Array1D/Declaration Part/Declaration Part.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hotel Menu Application/Hotel Menu Application.iml" filepath="$PROJECT_DIR$/Hotel Menu Application/Hotel Menu Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaClass.iml" filepath="$PROJECT_DIR$/JavaClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaFromInheritance/ObjectclassOverride/ObjectclassOverride.iml" filepath="$PROJECT_DIR$/JavaFromInheritance/ObjectclassOverride/ObjectclassOverride.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threading1/QuetionAnswerPlatform/QuetionAnswerPlatform.iml" filepath="$PROJECT_DIR$/Threading1/QuetionAnswerPlatform/QuetionAnswerPlatform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quetions-C/Quetions-C.iml" filepath="$PROJECT_DIR$/Quetions-C/Quetions-C.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array1D/SumOfArray/SumOfArray.iml" filepath="$PROJECT_DIR$/Array1D/SumOfArray/SumOfArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threading1/Threading1.iml" filepath="$PROJECT_DIR$/Threading1/Threading1.iml" />
+    </modules>
+  </component>
+</project>
