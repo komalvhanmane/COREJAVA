@@ -38,7 +38,9 @@ public class Info {
             System.out.println("Option 3: "+q[i].getOpt().getOption3());
             System.out.println("Option 4: "+q[i].getOpt().getOption4());
             System.out.println("Enter you choice");
-            Thread.sleep(9000);
+            //Thread.sleep(9000);
+            Threadd td=new Threadd("Java");
+            td.start();
             response[i]=sc.nextInt();
         }
         return response;
