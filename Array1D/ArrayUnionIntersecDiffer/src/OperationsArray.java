@@ -16,7 +16,7 @@ public class OperationsArray {
        // int maxsize=arr1.length+ arr2.length;
         //int[] result =new int[maxsize];
         int c=0;
-        if(arr1.length>arr2.length){
+        if(arr1.length>=arr2.length){
             for(int i=0;i<arr1.length;i++){
                 c++;
                 result[i]=arr1[i];

@@ -28,7 +28,7 @@ public class Info {
     public int[] displayQuetion(QuetionsWithOptions q[]) throws InterruptedException {
         int[] response=new int[q.length];
         for(int i=0;i<q.length;i++){
-            System.out.println("You have to answer in 1.30 minutes only automaticallly Next quetion will display after each 1.30 min");
+            System.out.println("\nYou have to answer in 30 Seconds only automaticallly Next quetion will display after each 1.30 min");
             //String []opt=q[i].getOptions();
             System.out.println("-----------------------------------------------------");
             System.out.println("Quetion 1:");
@@ -38,9 +38,9 @@ public class Info {
             System.out.println("Option 3: "+q[i].getOpt().getOption3());
             System.out.println("Option 4: "+q[i].getOpt().getOption4());
             System.out.println("Enter you choice");
-            //Thread.sleep(9000);
-            Threadd td=new Threadd("Java");
-            td.start();
+            Thread.sleep(9000);
+            //Threadd td=new Threadd("Java");
+            //td.start();
             response[i]=sc.nextInt();
         }
         return response;
