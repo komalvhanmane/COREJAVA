@@ -62,7 +62,7 @@ public class MatrixInfo {
         int[][]Matrix = new int[Matrix1[0].length][Matrix2.length];
         if(Matrix1[0].length==Matrix2.length){
             for(int i=0;i< Matrix1.length;i++){
-                for(int j=0;j<Matrix1[i].length;j++){
+                for(int j=0;j<Matrix2[i].length;j++){
                     Matrix[i][j]=0;
                     for(int k=0;k< Matrix2.length;k++){
                         Matrix[i][j]+=Matrix1[i][k]*Matrix2[k][j];
@@ -74,5 +74,14 @@ public class MatrixInfo {
         else{
             System.out.println("Multiplication Invalid");
         }
+    }
+    public void Transpose(int matrix[][]){
+        int[][]Matrix=new int[matrix[0].length][matrix.length];
+        for(int i=0;i< matrix.length;i++){
+            for(int j=0;j<matrix[i].length;j++){
+                Matrix[j][i]=matrix[i][j];
+            }
+        }
+        display(Matrix);
     }
 }

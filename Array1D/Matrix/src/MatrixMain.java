@@ -16,8 +16,18 @@ public class MatrixMain {
         mi.display(Matrix);
         System.out.println("Matrix 2");
         mi.display(Matrix1);
-       // mi.addition(Matrix,Matrix1);
+        //mi.addition(Matrix,Matrix1);
         //mi.display(result);
         mi.Multiplication(Matrix1,Matrix);
+      mi.Transpose(Matrix1);
+     /*   System.out.println("Enter the choice 1.Addition 2.Multiplication 3.Transpose ");
+        switch (sc.nextInt()){
+            case 1:{
+                System.out.println("Enter the Number of rows and col in second Matrix ");
+                int rows=sc.nextInt();
+                int col=sc.nextInt();
+                System.out.println("Enter the Number of rows and");
+            }
+        }*/
     }
 }

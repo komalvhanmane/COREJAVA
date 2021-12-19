@@ -5,7 +5,7 @@ public class Info {
     public QuetionsWithOptions[] QuetionAccept(){
         System.out.println("---------------Welcome---------------");
         //Lets take 10 Quetions
-        QuetionsWithOptions q[]=new QuetionsWithOptions[2];
+        QuetionsWithOptions[] q =new QuetionsWithOptions[2];
         for(int i=0;i<q.length;i++){
             System.out.println("Enter Quetion Number with Underscore dont use space : "+(i+1));
             String que=sc.next();
@@ -25,10 +25,10 @@ public class Info {
         System.out.println("----------------------Thank you---------------------");
         return q;
     }
-    public int[] displayQuetion(QuetionsWithOptions q[]) throws InterruptedException {
+    public int[] displayQuetion(QuetionsWithOptions[] q) throws InterruptedException {
         int[] response=new int[q.length];
         for(int i=0;i<q.length;i++){
-            System.out.println("\nYou have to answer in 30 Seconds only automaticallly Next quetion will display after each 1.30 min");
+            System.out.println("\nYou have to answer in 10 Seconds only automaticallly Next quetion will display after each 10 seconds");
             //String []opt=q[i].getOptions();
             System.out.println("-----------------------------------------------------");
             System.out.println("Quetion 1:");
@@ -37,18 +37,33 @@ public class Info {
             System.out.println("Option 2: "+q[i].getOpt().getOption2());
             System.out.println("Option 3: "+q[i].getOpt().getOption3());
             System.out.println("Option 4: "+q[i].getOpt().getOption4());
-            System.out.println("Enter you choice");
+
             Thread.sleep(9000);
             //Threadd td=new Threadd("Java");
             //td.start();
-            response[i]=sc.nextInt();
+            boolean ac=false;
+            int opt = 0;
+            System.out.print("Enter Option number: ");
+            while(!ac)
+            {
+                try{
+                    opt=sc.nextInt();
+                    System.out.println();
+                    ac=true;
+                }catch(Exception e){
+                    System.out.println("!!!!!!!!!!Enter the option number!!!!!!!!!!!");
+                }
+            }
+            response[i]=opt;
+            ac=false;
         }
         return response;
     }
-    public Student accept(QuetionsWithOptions q[]) throws InterruptedException {
+    public Student accept(QuetionsWithOptions[] q) throws InterruptedException {
         System.out.println("--------------------Welcome--------------------");
         System.out.println("Enter your Name....");
         String name=sc.next();
+        System.out.println("Welcome "+name);
         System.out.println("Enter your Roll Number.....");
         int rollNo=sc.nextByte();
         System.out.println("Lets Begin with Test Enter 1 to start");
