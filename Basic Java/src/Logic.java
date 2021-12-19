@@ -79,4 +79,27 @@ public class Logic {
             System.out.println("It is not a armstrong number ");
         }
     }
+    public void fibbo(int n){
+        int t1=1;
+        int t2=1;
+        int nextterm;
+        for(int i=0;i<n;i++){
+            System.out.println(t1);
+            nextterm=t1+t2;
+            t1=t2;
+            t2=nextterm;
+        }
+    }
+    public void arithematic(int a,int n,int d){
+        for(int i=0;i<n;i++){
+            System.out.println(a);
+            a += d;
+        }
+    }
+    public void geometric(int a,int d,int n){
+        for(int i=0;i<n;i++){
+            System.out.println(a);
+            a=a*d;
+        }
+    }
 }
