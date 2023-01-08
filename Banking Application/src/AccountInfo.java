@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class AccountInfo {
     //using array data structure
     Scanner sc= new Scanner(System.in);
+
     public Account[] create(){
         System.out.println("Enter the Total Number of Accounts ");
         int n=sc.nextInt();
